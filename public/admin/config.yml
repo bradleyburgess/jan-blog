@@ -2,6 +2,7 @@ backend:
   name: github
   branch: main
   repo: bradleyburgess/jan-blog
+  base_url: https://jan-blog.vercel.app
 media_folder: public/images
 public_folder: /images
 
