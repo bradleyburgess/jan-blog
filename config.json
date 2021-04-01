@@ -1,19 +1,16 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://practical-mirzakhani-3ba256.netlify.app/",
+  "site_title": "This Blog Is About You",
+  "site_description": "Jan's musings on life and religion",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "life"
     },
     {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
+      "keyword": "religion"
     }
   ],
   "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "twitter_account": "@JMTapir",
+  "github_account": "bradleyburgess"
 }
