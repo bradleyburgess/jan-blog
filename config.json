@@ -1,14 +1,17 @@
 {
   "base_url": "https://practical-mirzakhani-3ba256.netlify.app/",
   "site_title": "This Blog Is About You",
-  "site_description": "Jan's musings on life and religion",
+  "site_description": "New year. New world. New blog. ",
   "site_keywords": [
     {
       "keyword": "life"
     },
-    {
-      "keyword": "religion"
-    }
+    "Growth",
+    "Humour",
+    "Millennial ",
+    "Family",
+    "Self",
+    "Relationship "
   ],
   "posts_per_page": 5,
   "twitter_account": "@JMTapir",
