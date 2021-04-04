@@ -3,6 +3,7 @@ import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
+import Image from "next/image";
 
 export default function Index() {
   return (
@@ -12,11 +13,19 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
+          <div style={{ marginLeft: -24, marginRight: -24, marginBottom: 20 }}>
+            <Image
+              src="/images/jan-beach.jpg"
+              layout="responsive"
+              width={1599}
+              height={899}
+            />
+          </div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            This Blog Is About You<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          {/*<span className="handle">@nextjs-netlify-blog</span>*/}
+          <h2>Jan's musings on life and religion.</h2>
           <SocialList />
         </div>
       </div>

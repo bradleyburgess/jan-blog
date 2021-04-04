@@ -1,17 +1,17 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
+  "base_url": "https://practical-mirzakhani-3ba256.netlify.app/",
   "site_title": "This Blog Is About You",
-  "site_description": "Next.js blog template for Netlify",
+  "site_description": "New year. New world. New blog. ",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "life"
     },
-    {
-      "keyword": "Netlify"
-    },
-    {
-      "keyword": "React"
-    }
+    "Growth",
+    "Humour",
+    "Millennial ",
+    "Family",
+    "Self",
+    "Relationship "
   ],
   "posts_per_page": 5,
   "twitter_account": "@JMTapir",

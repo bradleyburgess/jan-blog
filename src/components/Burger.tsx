@@ -33,7 +33,7 @@ export default function Burger({ active, onClick }: Props) {
             transform: translateY(-10px);
           }
           .meat-2 {
-            width: calc(28px - 6px);
+            // width: calc(28px - 6px);
           }
           .meat-3 {
             transform: translateY(10px);

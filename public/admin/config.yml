@@ -1,9 +1,13 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: github
+  repo: bradleyburgess/jan-blog
+  branch: main
+  site_domain: https://jan-blog.vercel.app
+  base_url: https://jan-blog.vercel.app/
+  auth_endpoint: api/auth
+
 media_folder: public/images
 public_folder: /images
-publish_mode: editorial_workflow
 
 collections:
   - name: "config"
