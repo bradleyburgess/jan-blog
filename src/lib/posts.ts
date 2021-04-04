@@ -39,7 +39,7 @@ export function fetchPostContent(): PostContent[] {
         title: string;
         tags: string[];
         slug: string;
-        fullPath: string,
+        fullPath: string;
       };
       matterData.fullPath = fullPath;
 
@@ -79,4 +79,13 @@ export function listPostContent(
   return fetchPostContent()
     .filter((it) => !tag || (it.tags && it.tags.includes(tag)))
     .slice((page - 1) * limit, page * limit);
+}
+
+export function parseFootnotes(input: string): string {
+  const inline = new RegExp(/\[\^(\d+)\]/g);
+  const note = new RegExp(/\[\^(\d+)\]: /g);
+  const output = input
+    .replace(inline, '<a name="inline-$1" href="#note-$1"><sup>$1</sup></a>')
+    .replace(note, '<a name="note-$1" href="#inline-$1"><sup>$1</sup></a>');
+  return output;
 }
