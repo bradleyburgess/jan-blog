@@ -25,7 +25,7 @@ export default function Index() {
             This Blog Is About You<span className="fancy">.</span>
           </h1>
           {/*<span className="handle">@nextjs-netlify-blog</span>*/}
-          <h2>Jan's musings on life and religion.</h2>
+          <h2>New year. New world. New blog.</h2>
           <SocialList />
         </div>
       </div>
